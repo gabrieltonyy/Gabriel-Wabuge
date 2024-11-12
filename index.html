@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Anthony Wabuge - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-black dark:text-white transition-colors duration-300">
+
+    <!-- Header Section -->
+    <header class="text-center py-10 relative">
+        <!-- Dark Mode Toggle Button -->
+        <button id="darkModeToggle" class="absolute top-5 right-5 text-3xl">
+            <span id="moon" class="hidden">🌙</span>
+            <span id="sun">☀️</span>
+        </button>
+
+        <!-- Profile Picture -->
+        <img src="profile.jfif" alt="Profile Picture" class="w-32 h-32 mx-auto rounded-full border-4 border-blue-500">
+
+        <!-- Name and Contact Information -->
+        <h1 class="text-4xl font-bold mt-4">Gabriel Anthony Wabuge</h1>
+        <p class="text-xl mt-2">Computer Scientist | ML | Cybersecurity Enthusiast</p>
+        <p class="mt-2"><a href="mailto:gabrieltony988@gmail.com" class="text-blue-500 underline">gabrieltony988@gmail.com</a> | Nairobi, Kenya</p>
+        <p class="mt-4 text-lg max-w-2xl mx-auto">
+            I am a Computer Science graduate from The Catholic University of Eastern Africa, passionate about cybersecurity. Exploring how to exploit different machines and devising new solutions to secure them excites me. Alongside my security interests, I excel in creating intelligent systems by leveraging machine learning to solve complex problems.
+        </p>
+    </header>
+
+    <!-- Skills Section -->
+<section class="max-w-6xl mx-auto px-4 py-10 bg-gray-50 dark:bg-gray-800">
+    <h2 class="text-3xl font-semibold text-center mb-8">Skills</h2>
+
+    <div class="space-y-8">
+
+        <!-- Security Tools -->
+        <div>
+            <h3 class="text-2xl font-bold mb-4 text-center">Security Tools</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex flex-col items-center">
+                    <img src="nmap.jfif" alt="nmap" class="w-12 h-12 mb-2">
+                    <span>nmap</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="netcat.png" alt="netcat" class="w-12 h-12 mb-2">
+                    <span>netcat</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="metasploit.png" alt="Metasploit" class="w-12 h-12 mb-2">
+                    <span>Metasploit</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="burpsuite.jfif" alt="Burp Suite" class="w-12 h-12 mb-2">
+                    <span>Burp Suite</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="wireshack.png" alt="Wireshark" class="w-12 h-12 mb-2">
+                    <span>Wireshark</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="iptables.jfif" alt="iptables" class="w-12 h-12 mb-2">
+                    <span>iptables</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="recon.png" alt="recon" class="w-12 h-12 mb-2">
+                    <span>Recon-ng</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Machine Learning -->
+        <div>
+            <h3 class="text-2xl font-bold mb-4 text-center">Machine Learning</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex flex-col items-center">
+                    <img src="python.jfif" alt="Python" class="w-12 h-12 mb-2">
+                    <span>Python</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="Keras.jfif" alt="Keras" class="w-12 h-12 mb-2">
+                    <span>Keras</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="tensorflow.jfif" alt="TensorFlow" class="w-12 h-12 mb-2">
+                    <span>TensorFlow</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="R.jfif" alt="R" class="w-12 h-12 mb-2">
+                    <span>R</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div>
+            <h3 class="text-2xl font-bold mb-4 text-center">Programming Languages</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex flex-col items-center">
+                    <img src="python.jfif" alt="Python" class="w-12 h-12 mb-2">
+                    <span>Python</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="java.jfif" alt="Java" class="w-12 h-12 mb-2">
+                    <span>Java</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="C++.jfif" alt="C++" class="w-12 h-12 mb-2">
+                    <span>C++</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="bash.jfif" alt="Bash" class="w-12 h-12 mb-2">
+                    <span>Bash</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="javaScript.jfif" alt="JavaScript" class="w-12 h-12 mb-2">
+                    <span>JavaScript</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="C.jfif" alt="C" class="w-12 h-12 mb-2">
+                    <span>C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section class="max-w-6xl mx-auto px-4 py-10">
+        <h2 class="text-3xl font-semibold text-center mb-8">Projects</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+            <div class="relative p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg transition duration-200 dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white">
+                <div class="absolute top-2 right-2 px-3 py-1 bg-green-500 text-white text-sm font-semibold rounded-full">Completed</div>
+                <span class="text-green-500 font-semibold text-center block">ML Project</span>
+                <h3 class="text-2xl font-bold text-red-500 text-center">Shoe Image Classifier</h3>
+                <p class="mt-2 text-center">A machine learning model to categorize shoes into types such as sneakers, sandals, heels, and boots, thereby enhancing efficiency in the secondhand shoe market. Inspired the Websearch Visual ML project.</p>
+                <a href="https://github.com/gabrieltonyy/SHOE-UNIVERSE/tree/main" class="text-blue-500 mt-4 inline-block underline hover:text-white text-center">View on GitHub</a>
+            </div>
+
+            <div class="relative p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg transition duration-200 dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white">
+                <div class="absolute top-2 right-2 px-3 py-1 bg-yellow-500 text-white text-sm font-semibold rounded-full">Ongoing</div>
+                <span class="text-green-500 font-semibold text-center block">ML Project</span>
+                <h3 class="text-2xl font-bold text-red-500 text-center">Lacuna Malaria Detection</h3>
+                <p class="mt-2 text-center">A machine learning model aimed at identifying malaria parasites in blood slide images to enhance diagnostic accuracy and accessibility, especially in resource-limited settings in Africa.</p>
+                <a href="https://github.com/gabrieltonyy/Lacuna_Maleria" class="text-blue-500 mt-4 inline-block underline hover:text-white text-center">View on GitHub</a>
+            </div>
+
+            <div class="relative p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg transition duration-200 dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white">
+                <div class="absolute top-2 right-2 px-3 py-1 bg-yellow-500 text-white text-sm font-semibold rounded-full">Ongoing</div>
+                <span class="text-green-500 font-semibold text-center block">ML Project</span>
+                <h3 class="text-2xl font-bold text-red-500 text-center">Crop Disease Detection</h3>
+                <p class="mt-2 text-center">This project addresses food security by developing models to accurately detect diseases in corn, pepper, and tomato crops, using data from the Zindi Ghana Crop Disease Detection Challenge.</p>
+                <a href="javascript:void(0)" class="text-blue-500 mt-4 inline-block underline hover:text-white text-center" onclick="alert('This repo is not yet available. Please check again later or contact for more details.')">View on GitHub</a>
+            </div>
+
+            <div class="relative p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg transition duration-200 dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white">
+                <div class="absolute top-2 right-2 px-3 py-1 bg-yellow-500 text-white text-sm font-semibold rounded-full">Ongoing</div>
+                <span class="text-green-500 font-semibold text-center block">ML Project</span>
+                <h3 class="text-2xl font-bold text-red-500 text-center">Websearch Visual ML</h3>
+                <p class="mt-2 text-center">A machine learning model that enables users to search products through images, focused on clothing and footwear, enhancing e-commerce experiences.</p>
+                <a href="javascript:void(0)" class="text-blue-500 mt-4 inline-block underline hover:text-white text-center" onclick="alert('This repo is not yet available. Please check again later or contact for more details.')">View on GitHub</a>
+            </div>
+
+            <div class="relative p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg transition duration-200 dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white mx-auto">
+                <div class="absolute top-2 right-2 px-3 py-1 bg-green-500 text-white text-sm font-semibold rounded-full">Completed</div>
+                <span class="text-green-500 font-semibold text-center block">Security Project</span>
+                <h3 class="text-2xl font-bold text-red-500 text-center">JAILBRAKE</h3>
+                <p class="mt-2 text-center">A cybersecurity tool for generating wordlists used in password cracking for ethical hacking and penetration testing tasks.</p>
+                <a href="https://github.com/gabrieltonyy/JAILBREAK" class="text-blue-500 mt-4 inline-block underline hover:text-white text-center">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+        <p class="mb-4">Get in touch via LinkedIn or Email:</p>
+        <a href="https://www.linkedin.com/in/gabriel-anthony-wabuge" class="text-blue-500 underline text-lg mx-2 hover:text-blue-600" target="_blank">LinkedIn</a>
+        <span>|</span>
+        <a href="mailto:gabrieltony988@gmail.com" class="text-blue-500 underline text-lg mx-2 hover:text-blue-600">Email</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-10">
+        <p>Built by your friendly neighborhood coder</p>
+        <p>gabrieltonyy</p>
+    </footer>
+
+    <!-- JavaScript for Dark Mode Toggle -->
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        const moonIcon = document.getElementById('moon');
+        const sunIcon = document.getElementById('sun');
+
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+            moonIcon.classList.toggle('hidden');
+            sunIcon.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
